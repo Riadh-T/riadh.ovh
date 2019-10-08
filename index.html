@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Accueil - riadh.ovh</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<!-- Link to UIKIT css files -->
+		<link rel="stylesheet" type="text/css" href="uikit/css/uikit.min.css">
+		<style>
+			.wrap::before {
+				position: absolute;
+				height: 100vh;
+				width: 100vw;
+				content: '';
+				z-index: 1;
+				background-color: rgba(0,0,0,0.5);
+			}
+			.lead {
+				font-size: 1.175em;
+				font-weight: 300;
+			}
+			.uk-logo img {
+				height: 20px;
+			}
+		</style>
+	</head>
+	<body class="uk-light wrap uk-background-norepeat uk-background-cover uk-background-center-center uk-cover-container uk-background-secondary">
+		<img data-srcset="https://picsum.photos/640/700/?image=327 640w,
+		             https://picsum.photos/960/700/?image=327 960w,
+		             https://picsum.photos/1200/900/?image=327 1200w,
+		             https://picsum.photos/2000/1000/?image=327 2000w"
+		     sizes="100vw"
+		     data-src="https://picsum.photos/1200/900/?image=327" alt="" data-uk-cover data-uk-img
+		>
+		<div class="uk-flex uk-flex-center uk-flex-middle uk-height-viewport uk-position-z-index uk-position-relative" data-uk-height-viewport="min-height: 400">
+			
+			<!-- NAV -->
+			<div class="uk-position-top">
+				<div class="uk-container uk-container-small">
+					<nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+						<div class="uk-navbar-left">
+							<div class="uk-navbar-item">
+								<a class="uk-logo" href=""><img src="img/logo.png" alt="Logo riadh troudi"></a>
+							</div>
+						</div>
+						<div class="uk-navbar-right">
+							<ul class="uk-navbar-nav">
+								<li class="uk-active uk-visible@m"><a href="" data-uk-icon="home"></a></li>
+								<li class="uk-visible@s"><a href="skills.html">Compétences techniques</a></li>
+								<li class="uk-visible@s"><a href="">Mon CV</a></li>
+								<li class="uk-visible@s"><a href="">Blog</a></li>
+								<li class="uk-visible@s"><a href="">Contact</a></li>
+								<li class="uk-visible@s"><a href="https://www.linkedin.com/in/riadh-troudi-b45762154/" data-uk-icon="icon:linkedin" target="_blank">
+								</a></li>
+								<li class="uk-visible@s"><a href="https://github.com/Riadh-T" data-uk-icon="icon:github" target="_blank"></a></li>
+								
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- /NAV -->
+			<!-- TEXT -->
+			<div class="uk-container uk-container-small uk-flex-auto uk-text-center" data-uk-scrollspy="target: > .animate; cls: uk-animation-slide-bottom-small uk-invisible; delay: 300">
+				<h2 class="uk-heading-primary animate uk-invisible" style="font-weight: 700;">Webmaster Polyvalent <br> Spécialiste en Support Applicatif et Hébergement Web</h2>
+				<div class="uk-width-4-5@m uk-margin-auto animate uk-invisible">
+					<p class="lead">Plus de 10 ans d'expérience professionnelle en informatique.</p>
+				</div>
+				<div class="uk-margin-medium-top animate uk-invisible" data-uk-margin data-uk-scrollspy-class="uk-animation-fade uk-invisible">
+					<a href="skills.html" class="uk-button uk-button-default uk-button-large uk-width-2-3 uk-width-auto@s" data-uk-icon="arrow-right" title="Learn More">Compétences techniques</a>
+					<a class="uk-button uk-button-primary uk-button-large uk-width-2-3 uk-width-auto@s" data-uk-icon="check" title="Learn More">Consulter mon CV</a>
+				</div>
+			</div>
+			<!-- /TEXT -->
+			<!-- FOOT -->
+			<div class="uk-position-bottom-center uk-position-small">
+				<span class="uk-text-small uk-text-center">© 2019 | <a href="https://riadh.ovh" title="Site créé par Riadh TROUDI">Site créé par Riadh TROUDI</a>  | Tous droits réservés.</span>
+			</div>
+			<!-- /FOOT -->
+		</div>
+		<!-- OFFCANVAS -->
+		<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+			<div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+				<button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+				<ul class="uk-nav uk-nav-default">
+					<li class="uk-active"><a href="#">Accueil</a></li>
+					<li class="uk-nav-header">Compétences techniques</li>
+					<li class="uk-nav-header">Curriculum Vitae</li>
+					<li class="uk-nav-header">Blog</li>
+					<li class="uk-nav-header">Contact</li>				
+				</ul>
+				<h3>Title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+		<!-- /OFFCANVAS -->
+		
+		<!-- JS FILES -->
+		<script src="uikit/js/uikit.min.js"></script>
+		<script src="uikit/js/uikit-icons.min.js"></script>
+	</body>
+</html>

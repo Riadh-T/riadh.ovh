@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Compétences techniques</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<!-- CSS FILES -->
+		<link rel="stylesheet" type="text/css" href="uikit/css/uikit.min.css">
+		<link rel="stylesheet" type="text/css" href="css/cards.css">
+		<style>
+			.lead {
+				font-size: 1.175em;
+				font-weight: 300;
+			}
+			.uk-logo img {
+				height: 20px;
+			}
+		</style>
+	</head>
+	<body data-uk-filter="target: .js-filter">
+			<!-- NAV -->
+				<div class="uk-position-top" id="site-head">
+					<div class="uk-container uk-container-small">
+						<nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+							<div class="uk-navbar-left">
+								<div class="uk-navbar-item">
+									<a class="uk-logo" href="index.html"><img src="img/logo-black.png" alt="Logo riadh troudi"></a>
+								</div>
+							</div>
+							<div class="uk-navbar-right">
+								<ul class="uk-navbar-nav">
+									<li class="uk-visible@m"><a href="index.html" data-uk-icon="home"></a></li>
+									<li class="uk-active uk-visible@s"><a href="skills.html">Compétences techniques</a></li>
+									<li class="uk-visible@s"><a href="">Mon CV</a></li>
+									<li class="uk-visible@s"><a href="">Blog</a></li>
+									<li class="uk-visible@s"><a href="">Contact</a></li>
+									<li class="uk-visible@s"><a href="https://www.linkedin.com/in/riadh-troudi-b45762154/" data-uk-icon="icon:linkedin" target="_blank">
+									</a></li>
+									<li class="uk-visible@s"><a href="https://github.com/Riadh-T" data-uk-icon="icon:github" target="_blank"></a></li>
+									
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			<!-- /NAV -->
+		<div class="spacer"></div>
+		<div class="spacer"></div>
+
+		<!-- Recherche -->
+		<div class="uk-container uk-container-small">
+				<div class="uk-width">
+					<form id="search-form" action="">
+						<div class="uk-inline uk-width-1-1">
+							<span class="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: search"></span>
+							<input class="uk-input uk-width-1-1 search-fld" type="text" placeholder="Recherchez ici une compétence technique, une technologie, un langage de programmation ou autre." autofocus>
+							<a href="#" class="search-filter" data-uk-filter-control="[data-tags*='']" hidden>Search</a>
+						</div>
+					</form>
+				</div>
+		</div>
+		<!-- Recherche -->
+
+		<!--CARDS WRAPPER-->
+		<section class="uk-section uk-section-small uk-section-default uk-padding-remove-bottom">
+			<div class="uk-container uk-container-expand uk-margin-large-bottom">
+				<ul class="uk-subnav uk-subnav-pill">
+					<li class="uk-active" data-uk-filter-control><a href="#">Tout</a></li>
+					<li data-uk-filter-control=".frontend-card"><a href="#">FrontEnd</a></li>
+					<li data-uk-filter-control=".backend-card"><a href="#">BackEnd</a></li>
+					<li data-uk-filter-control=".db-card"><a href="#">Base de données</a></li>
+					<li data-uk-filter-control=".cms-card"><a href="#">CMS</a></li>
+					<li data-uk-filter-control=".tools-card"><a href="#">OUTILS</a></li>
+					<li data-uk-filter-control=".linux-card"><a href="#">Linux</a></li>
+					<li data-uk-filter-control=".design-card"><a href="#">Design</a></li>
+					<li data-uk-filter-control=".support-card"><a href="#">Support</a></li>
+
+				</ul>
+				<div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l  uk-child-width-1-5@xl uk-grid-match js-filter" data-uk-grid="masonry: true" data-uk-sortable="handle: .drag-icon">
+				<!-- card Support -->
+					<div class="support-card" data-tags="Support Technique">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Support Technique</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-support.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Support Technique</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Apporter une assistance technique précise et de qualité.</li>
+											<li class="uk-margin-remove">Effectuer un diagnostique détaillé.</li>
+											<li class="uk-margin-remove">Rédiger une réponse technique par e-mail.</li>
+											<li class="uk-margin-remove">Mettre des documents techniques à disposition des clients</li>
+								    		<li class="uk-margin-remove">Actualiser la base de connaissances.</li>
+								    		<li class="uk-margin-remove">Collaborer et partager mes connaissances.</li>
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card Base de données -->
+					<div class="db-card" data-tags="Base de données - MySQL - OVH - SQL - CloudDB">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Base de données</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-db-mysql.png" width="400" height="150" alt="Base de données MySQL" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Base de données MySQL</h6>
+								<p class="uk-text-small uk-text-muted uk-margin-remove">Création des utilisateurs et des bases de données, importation, exportation, procédures stockées et triggers.</p>
+								<div class="uk-text-small uk-text-muted">Résolution des erreurs liées à :
+									<ul class="uk-list uk-list-bullet uk-margin-remove">
+										<li class="uk-margin-remove">Migration des bases volumineuses.</li>
+									    <li class="uk-margin-remove">Bases de données saturées.</li>
+									    <li class="uk-margin-remove">Encodage charset / collate utf8mb4.</li>
+										<li class="uk-margin-remove">Droits d’accès et user privilèges.</li>
+										<li class="uk-margin-remove">Lenteurs et optimisation des bases.</li>
+									</ul>
+								</div>
+								<p class="uk-text-small uk-text-muted">Maitrise parfaite des serveurs SQL privés et CloudDB de OVH.</p>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card PHP -->
+					<div class="backend-card" data-tags="PHP">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">PHP</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-php.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Programmation PHP</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Créer un script PHP.</li>
+										    <li class="uk-margin-remove">Programmer des fonctions.</li>
+										    <li class="uk-margin-remove">Utilisation des sessions et des cookies.</li>
+											<li class="uk-margin-remove">Communiquer avec la base de données.</li>
+											<li class="uk-margin-remove">Utiliser les expressions régulières en PHP.</li>
+											<li class="uk-margin-remove">Utilisation de la POO (Classes, attributs, méthodes, encapsulation, polymorphisme et héritage).</li>
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card HTML & CSS -->
+					<div class="frontend-card" data-tags="HTML/CSS">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">HTML/CSS</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-html-css.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">HTML5 et CSS3</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Utiliser du code HTML.</li>
+										    <li class="uk-margin-remove">Structurer une page web en HTML.</li>
+										    <li class="uk-margin-remove">Mettre en forme une page web en CSS.</li>
+											<li class="uk-margin-remove">Modifier l'agencement d'une page HTML avec du script CSS.</li>
+											<li class="uk-margin-remove">Intégrer de l'audio, de la vidéo.</li>
+											<li class="uk-margin-remove">Créer un responsive design.</li>
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card UIKIT -->
+					<div class="frontend-card" data-tags="UIKIT Framework">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">UIKIT Framework</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-uikit.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Le framework UIKIT</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Utiliser le framework CSS UIKIT.</li>
+										    <li class="uk-margin-remove">Personnaliser les éléments graphiques.</li>
+										    <li class="uk-margin-remove">Créer des pages modernes et "responsive".</li>
+										</ul>
+								</div>
+								<p class="uk-text-small uk-text-muted">J'ai créé ce site web en se basant uniquement sur le framework CSS UIKIT <span data-uk-icon="icon:heart; ratio: 0.8"></span>.
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card GIT -->
+					<div class="tools-card" data-tags="GIT">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">GIT</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-git.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">GIT / GITHUB</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Installer Git sur un poste de travail.</li>
+											<li class="uk-margin-remove">Utiliser les commandes (init, add, commit, checkout, fetch, pull, push, branch, merge).</li>
+											<li class="uk-margin-remove">Gérer plusieurs versions avec Git.</li>
+										    <li class="uk-margin-remove">Gérer un travail d’équipe avec les workflows.</li>S
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					
+
+					<!-- card Confluence -->
+					<div class="tools-card" data-tags="Confluence">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Confluence</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-confluence.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Confluence</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Créer des présentations et des tutoriels.</li>
+											<li class="uk-margin-remove">Collaborer en éditant conjointement des pages, en donnant du feedback.</li>
+											<li class="uk-margin-remove">Ajouter des commentaires contextuels.</li>
+										    <li class="uk-margin-remove">Créer et personnaliser un template.</li>
+										    <li class="uk-margin-remove">Gérer les autorisations des pages.</li>
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card Jira -->
+					<div class="tools-card" data-tags="Jira">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Jira</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-jira.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Jira</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Créer des tickets et des sprints.</li>
+											<li class="uk-margin-remove">Affecter une tâche à un collaborateur.</li>
+											<li class="uk-margin-remove">Définir la priorité d'un ticket.</li>
+											<li class="uk-margin-remove">Suivre la résolution d'un ticket.</li>										    
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card Joomla -->
+					<div class="cms-card" data-tags="Joomla">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Joomla</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-joomla.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Joomla</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Installer et configurer Joomla version 3.9.</li>
+											<li class="uk-margin-remove">Créer un contenu multimédia.</li>
+											<li class="uk-margin-remove">Gérer les menus et les utilisateurs.</li>
+										    <li class="uk-margin-remove">Créer et personnaliser un template.</li>
+										    <li class="uk-margin-remove">Classer des produits par catégories.</li>
+										    <li class="uk-margin-remove">Configurer une solution de mailing.</li>
+										    <li class="uk-margin-remove">Améliorer le référencement SEO.</li>
+										    <li class="uk-margin-remove">Créer des sauvegardes automatiques.</li>
+										    <li class="uk-margin-remove">Gérer les mises à jour de Joomla.</li>
+										    <li class="uk-margin-remove">Définir une stragégie de sécurité.</li>
+										    <li class="uk-margin-remove">Etudier l'audience et les statistiques.</li>
+										</ul>
+								</div>
+								<p class="uk-text-small uk-text-muted">Maitrise parfaite du CMS Joomla, 50+ sites web livrés avec succès.</p>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card linux -->
+					<div class="linux-card" data-tags="Linux">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Linux</span>
+									</div>
+									<div class="uk-width-auto uk-text-right uk-text-muted">
+										<span data-uk-icon="icon:pencil; ratio: 0.8"></span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-linux.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Linux</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Utilisation quotidienne de Ubuntu 18.04.</li>
+											<li class="uk-margin-remove">Maîtrise de toutes  les commandes de base.</li>
+											<li class="uk-margin-remove">Gérer les fichiers (less, cat, head, tail, touch, mkdir, cp, mv, rm -rf /*, ln).</li>
+											<li class="uk-margin-remove">Gérer les droits d'accès CHMOD.</li>	
+											<li class="uk-margin-remove">Contrôler les flux et les activités système.</li>									    
+											<li class="uk-margin-remove">Créer des Crontab.</li>
+										</ul>
+								</div>
+								<p class="uk-text-small uk-text-muted">J'ai administré en solo un serveur dédié sous linux/debian pendant deux ans.</p>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card Symfony -->
+					<div class="backend-card" data-tags="Symfony">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Symfony</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-symfony.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Le Framework Symfony</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Installer Symfony grâce à Composer.</li>
+										    <li class="uk-margin-remove">Manipuler le moteur de templates Twig.</li>
+										    <li class="uk-margin-remove">Définir les routes dans le controleur.</li>
+										    <li class="uk-margin-remove">Gérer la base de données avec Doctrine2.</li>
+											<li class="uk-margin-remove">Déployer un site Symfony en production.</li>
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+					<!-- card Photoshop -->
+					<div class="design-card" data-tags="Photoshop">
+						<div class="uk-card uk-card-small uk-card-default">
+							<div class="uk-card-header">
+								<div class="uk-grid uk-grid-small uk-text-small" data-uk-grid>
+									<div class="uk-width-expand">
+										<span class="cat-txt">Photoshop</span>
+									</div>
+								</div>
+							</div>
+							<div class="uk-card-media">
+								<div>
+									<img data-src="img/teaser-photoshop.png" width="400" height="150" alt="PHP" uk-img>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<h6 class="uk-margin-small-bottom uk-text-bold">Photoshop</h6>
+								<div class="uk-text-small uk-text-muted">
+										<ul class="uk-list uk-list-bullet uk-margin-remove">
+											<li class="uk-margin-remove">Créer des calques et les masques de fusion.</li>
+											<li class="uk-margin-remove">Mettre en forme du texte, glyphes et paragraphes.</li>
+								    		<li class="uk-margin-remove">Automatiser l'exportation de fichiers.</li>
+											<li class="uk-margin-remove">Retoucher une image (contenu pris en compte).</li>
+										</ul>
+								</div>
+							</div>
+							<div class="uk-card-footer">
+								<div class="uk-grid uk-grid-small uk-grid-divider uk-flex uk-flex-middle" data-uk-grid>
+									<div class="uk-width-4-5 uk-text-center uk-text-muted uk-text-primary">
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+										<span data-uk-icon="icon:star; ratio: 0.8"></span>
+									</div>
+									<div class="uk-width-1-5 uk-text-center">
+										<a data-uk-tooltip="title: Drag this card" href="#" class="uk-icon-link drag-icon" data-uk-icon="icon:move; ratio: 1"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /card -->
+
+				</div>
+			</div>
+		</section>
+		<!--/CARDS WRAPPER-->
+		<!--FOOTER-->
+		<footer id="site-foot" class="uk-section uk-section-secondary uk-section-xsmall">
+			<div class="uk-container uk-text-small uk-text-center">
+				Site créé par <a href="https://riadh.ovh" title="Site créé par Riadh Troudi">Riadh Troudi</a> | Tous droits réservés © | 2019 </span>
+			</div>
+		</footer>
+		<!--/FOOTER-->
+		<!-- OFFCANVAS -->
+		<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: true">
+			<div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+				<button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+				<ul class="uk-nav uk-nav-default">
+					<li class="uk-active"><a href="#">Active</a></li>
+					<li class="uk-parent">
+						<a href="#">Parent</a>
+						<ul class="uk-nav-sub">
+							<li><a href="#">Sub item</a></li>
+							<li><a href="#">Sub item</a></li>
+						</ul>
+					</li>
+					<li class="uk-nav-header">Header</li>
+					<li><a href="#js-options"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span> Item</a></li>
+					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails"></span> Item</a></li>
+					<li class="uk-nav-divider"></li>
+					<li><a href="#"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: trash"></span> Item</a></li>
+				</ul>
+				<h3>Title</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+		<!-- /OFFCANVAS -->
+		
+		<!-- JS FILES -->
+		<script src="uikit/js/uikit.min.js"></script>
+		<script src="uikit/js/uikit-icons.min.js"></script>
+		<script src="js/cards.js"></script>		
+	</body>
+</html>
